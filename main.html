@@ -1,16 +1,30 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+<meta charset="UTF-8">
+<title>Grid with Rowspan & Colspan</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+<h2>GRID with Rowspan / Colspan</h2>
 
+<div class="outer-box">
+
+<table>
+    <tr>
+        <td class="r1c1" >Row1 col1</td>
+        <td class="r1c2" colspan="3">Row1 col2</td>
+    </tr>
+    <tr>
+        <td class="dark" rowspan="2"></td>
+        <td class="r2c1">Row2 col1</td>
+        <td class="dark"></td>
+        <td class="r2c2" rowspan="2">Row2 col2</td>
+    </tr>
+    <tr>
+        <td class="r3c1">Row3 col1</td>
+        <td class="r3c2">Row3 col2</td>
+    </tr>
+</table>
+</div>
 </body>
-
 </html>

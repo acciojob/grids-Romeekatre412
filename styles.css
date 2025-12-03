@@ -1,2 +1,41 @@
+body {
+        font-family: Arial, sans-serif;
+        background: white;
+        margin: 0;
+        padding: 20px;
+    }
 
-/* Your CSS Code here. */
+    .outer-box {
+        border: 8px solid #00ff00;
+        padding: 10px;
+        width: 85%;
+        margin: auto;
+		background-color:pink;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: separate;
+        border-spacing: 0 12px; 
+    }
+
+    td {
+        border: 2px dotted black;
+        padding: 30px;
+        font-size: 20px;
+        color: black;
+        vertical-align: middle;
+    }
+
+    /* ROW 1 COLORS */
+    .r1c1 { background: #017b7b; }
+    .r1c2 { background: #d3c3d4; }
+
+    /* ROW 2 COLORS */
+    .dark { background: #2a0000; }
+    .r2c1 { background: #ff6f4e; }
+    .r2c2 { background: #5ce6e6; }
+
+    /* ROW 3 COLORS */
+    .r3c1 { background: #eaa7ff; }
+    .r3c2 { background: #a4d65c; }
